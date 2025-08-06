@@ -1,0 +1,119 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product A",
+        "id": 12456,
+        "image_url": "https://picsum.photos/id/237/200/300",
+        "participant": [
+          {
+            "id": "admin@mail.com",
+            "name": "Admin",
+            "role": 0
+          },
+          {
+            "id": "agent@mail.com",
+            "name": "Agent A",
+            "role": 1
+          },
+          {
+            "id": "customer@mail.com",
+            "name": "King Customer",
+            "role": 2
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885512,
+          "type": "text",
+          "message": "Selamat malam",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:30:00Z"
+        },
+        {
+          "id": 885513,
+          "type": "text",
+          "message": "Malam",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:31:00Z"
+        },
+        {
+          "id": 885514,
+          "type": "text",
+          "message": "Ada yang bisa saya bantu?",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:31:30Z"
+        },
+        {
+          "id": 885515,
+          "type": "text",
+          "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:32:00Z"
+        },
+        {
+          "id": 885516,
+          "type": "text",
+          "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:32:30Z"
+        },
+        {
+          "id": 885517,
+          "type": "image",
+          "message": "Bukti pembayaran transfer",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:33:00Z",
+          "media": {
+            "url": "https://mediakonsumen.com/files/2024/10/Screenshot_20240920-030802-3.jpg",
+            "filename": "bukti_pembayaran.jpg",
+            "size": 245760,
+            "alt": "Screenshot bukti pembayaran transfer bank"
+          }
+        },
+        {
+          "id": 885518,
+          "type": "text",
+          "message": "Terima kasih, saya akan cek dulu ya",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:33:30Z"
+        },
+        {
+          "id": 885519,
+          "type": "video",
+          "message": "Video tutorial cara upload bukti pembayaran",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:35:00Z",
+          "media": {
+            "url": "/videoplayback.mp4",
+            "filename": "tutorial_upload.mp4",
+            "size": 5242880,
+            "duration": 120,
+            "thumbnail": "https://www.eitheme.com/wp-content/uploads/2025/01/eiShop-Form-Konfirmasi-Pembayaran.webp"
+          }
+        },
+        {
+          "id": 885520,
+          "type": "pdf",
+          "message": "Panduan lengkap pembayaran",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:36:00Z",
+          "media": {
+            "url": "/placeholder.svg?height=400&width=300",
+            "filename": "panduan_pembayaran.pdf",
+            "size": 1048576,
+            "pages": 5
+          }
+        },
+        {
+          "id": 885521,
+          "type": "text",
+          "message": "Pembayaran sudah dikonfirmasi. Terima kasih!",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:40:00Z"
+        }
+      ]
+    }
+  ]
+}
